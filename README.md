@@ -1,17 +1,3 @@
-# Exercise-05b-FPS
-Exercise for MSCH-C220, 29 March 2021
-
-A demonstration of this exercise is available at [https://youtu.be/To-ivKKIito](https://youtu.be/To-ivKKIito)
-
-This exercise is a chance to play with Godot's 3D capability for the first time. We will be creating a simple first-person-controlled character, and then adding some Constructive Solid Geometry to our scene.
-
-
-Fork this repository. When that process has completed, make sure that the top of the repository reads [your username]/Exercise-05b-FPS. *Edit the LICENSE and replace BL-MSCH-C220-S21 with your full name.* Commit your changes.
-
-Clone the repository to a Local Path on your computer.
-
-Open Godot. Import the project.godot file and open the "FPS" project.
-
 This exercise is loosely based on the Godot 101: Intro to 3D tutorial by KidsCanCode. It was released as a [YouTube video](https://www.youtube.com/watch?v=_55ktNdarxY), and a similar tutorial [has also been written out](http://kidscancode.org/godot_recipes/basics/3d/101_3d_07/). Please follow the directions I provide in this exercise, but if you get stuck or need additional context, feel free to consult the KidsCanCode tutorial.
 
 In res://Game.tscn, I have provided a starting place for the exercise: the scene contains a parent Spatial node (named Game) and a StaticBody Ground node (containing a MeshInstance Plane and a CollisionShape)
@@ -97,11 +83,6 @@ Now, finally, right-click on the Game node and Add Child Node. Select CSGBox. In
 
 Right-click on the CSGBox and Add Child Node. Select CSGSphere. In the Inspector, set Radius: 0.5 and CSGShape->Operation: Subtraction. It should now appear that the sphere has been carved out of the wall, and your player should be able to collide with the shape as if the sphere weren't there.
 
-Quit Godot. In GitHub desktop, add a summary message, commit your changes and push them back to GitHub. If you return to and refresh your GitHub repository page, you should now see your updated files with the time when they were changed.
-
-Now edit the README.md file. When you have finished editing, commit your changes, and then turn in the URL of the main repository page (https://github.com/[username]/Exercise-05b-FPS) on Canvas.
-
-The final state of the file should be as follows (replacing the "Created by" information with your name):
 ```
 # Exercise-05b-FPS
 Exercise for MSCH-C220, 29 March 2021
@@ -120,5 +101,4 @@ None
 None
 
 ## Created by 
-Jason Francis
-```
+Gwen Hall

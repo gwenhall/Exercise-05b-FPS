@@ -1,5 +1,3 @@
-This exercise is loosely based on the Godot 101: Intro to 3D tutorial by KidsCanCode. It was released as a [YouTube video](https://www.youtube.com/watch?v=_55ktNdarxY), and a similar tutorial [has also been written out](http://kidscancode.org/godot_recipes/basics/3d/101_3d_07/). Please follow the directions I provide in this exercise, but if you get stuck or need additional context, feel free to consult the KidsCanCode tutorial.
-
 In res://Game.tscn, I have provided a starting place for the exercise: the scene contains a parent Spatial node (named Game) and a StaticBody Ground node (containing a MeshInstance Plane and a CollisionShape)
 
 Right-click on the Game node, and Add Child Node. Choose KinematicBody (not KinematicBody2D!). Name the new node Player
